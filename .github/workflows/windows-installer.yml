@@ -72,7 +72,7 @@ jobs:
           ./build/orb.exe build examples/hello.orb -o build/orb-windows-smoke.exe
           ./build/orb-windows-smoke.exe
       - name: Set up Python for VS Code packaging
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Smoke-test the package-manager CLI
